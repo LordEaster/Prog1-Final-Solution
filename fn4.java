@@ -33,12 +33,12 @@ public class fn4 {
 
                 // ถ้าตำแหน่งแถว i บวกหลัก j เท่ากับ 2 
                 if (i + j == 2) {
-                    Sum_Lcross++;
+                    Sum_Lcross += arr[i][j];
                 }
 
                 // ถ้าตำแหน่งแถว i เท่ากับหลัก j
                 if (i == j) {
-                    Sum_Rcross++;
+                    Sum_Rcross += arr[i][j];
                 }
             }
         }
